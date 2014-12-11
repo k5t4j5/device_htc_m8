@@ -90,6 +90,9 @@ BOARD_CHARGING_MODE_BOOTING_LPM := /sys/htc_lpm/lpm_mode
 # Font
 EXTENDED_FONT_FOOTPRINT := true
 
+# Hybrid optimizations
+HYFI := true
+
 # Graphics
 BOARD_EGL_CFG := device/htc/m8/configs/egl.cfg
 TARGET_DISPLAY_USE_RETIRE_FENCE := true
